@@ -1,6 +1,6 @@
 import Foundation
 
-public enum CacheBroManagerError: Error, LocalizedError {
+public enum CachedManagerError: Error, LocalizedError {
     case urlCacheError(URLCacheHandlerError)
 
     public var errorDescription: String {

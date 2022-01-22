@@ -1,7 +1,7 @@
 import Foundation
 
 /// TODO
-public final class CacheBroManager {
+public final class CachedManager {
 
     // MARK: - Properties
 
@@ -18,7 +18,7 @@ public final class CacheBroManager {
 
 // MARK: - Methods
 
-public extension CacheBroManager {
+public extension CachedManager {
 
     /// TODO
     func storeToCache() async {
